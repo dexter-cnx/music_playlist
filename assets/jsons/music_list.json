@@ -1,0 +1,44 @@
+{
+  "lists" : [
+    {
+      "id": 1,
+      "title" : "Tech House Vibes",
+      "description" : "A&K",
+      "image" : "https://m.media-amazon.com/images/I/81UYWMG47EL._SS500_.jpg",
+      "audios" : [
+        {
+          "title" : "Salt & Pepper",
+          "description" : "Dope Lemon",
+          "image" : "https://m.media-amazon.com/images/I/81UYWMG47EL._SS500_.jpg",
+          "source" : "assets/mp3/german_military_march.mp3"
+        },
+        {
+          "title" : "Losing It",
+          "description" : "FISHER",
+          "image" : "https://m.media-amazon.com/images/I/9135KRo8Q7L._SS500_.jpg",
+          "source" : "assets/mp3/inspiring-corporate-technology-ambient-loyalty-no-drums-236311.mp3"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title" : "Summer Hits",
+      "description" : "Hits",
+      "image" : "https://m.media-amazon.com/images/I/9135KRo8Q7L._SS500_.jpg",
+      "audios" : [
+        {
+          "title" : "Losing It",
+          "description" : "FISHER",
+          "image" : "https://m.media-amazon.com/images/I/9135KRo8Q7L._SS500_.jpg",
+          "source" : "assets/mp3/inspiring-corporate-technology-ambient-loyalty-no-drums-236311.mp3"
+        },
+        {
+          "title" : "Salt & Pepper",
+          "description" : "Dope Lemon",
+          "image" : "https://m.media-amazon.com/images/I/81UYWMG47EL._SS500_.jpg",
+          "source" : "assets/mp3/german_military_march.mp3"
+        }
+      ]
+    }
+  ]
+}
