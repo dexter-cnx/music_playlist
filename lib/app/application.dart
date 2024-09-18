@@ -20,7 +20,7 @@ class Application extends StatelessWidget {
       initialRoute: '/splash',
       getPages: Routes.routes,
       builder: EasyLoading.init(builder: (context, widget) {
-        return MediaQuery(data: MediaQuery.of(context).copyWith(textScaleFactor: 1), child: widget!);
+        return MediaQuery(data: MediaQuery.of(context), child: widget!);
       }),
       theme: ThemeData(
         textTheme: GoogleFonts.kanitTextTheme(Theme.of(context).textTheme),

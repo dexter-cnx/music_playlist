@@ -28,12 +28,14 @@ class PlayListModel {
 }
 
 class PlayList {
+  final int id;
   final String title;
   final String description;
   final String image;
   final List<AudioItem> audios;
 
   PlayList({
+    required this.id,
     required this.title,
     required this.description,
     required this.image,
@@ -41,12 +43,14 @@ class PlayList {
   });
 
   PlayList copyWith({
+    int? id,
     String? title,
     String? description,
     String? image,
     List<AudioItem>? audios,
   }) =>
       PlayList(
+        id: id ?? this.id,
         title: title ?? this.title,
         description: description ?? this.description,
         image: image ?? this.image,
@@ -58,10 +62,12 @@ class PlayList {
   String toJson() => json.encode(toMap());
 
   factory PlayList.fromMap(Map<String, dynamic> json) => PlayList(
-    title: json["title"],
-    description: json["description"],
-    image: json["image"],
-    audios: List<AudioItem>.from(json["audios"].map((x) => AudioItem.fromMap(x))),
+    id: json['id'] ?? 0,
+    title: json["title"] ?? '',
+    description: json["description"] ?? '',
+    image: json["image"] ?? '',
+    audios: json["audios"] == null ? []
+        : List<AudioItem>.from(json["audios"].map((x) => AudioItem.fromMap(x))),
   );
 
   Map<String, dynamic> toMap() => {
