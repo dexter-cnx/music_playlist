@@ -16,7 +16,7 @@ class MusicPlayPage extends GetView<MusicPlayController> {
     //final theme = Theme.of(context);
     return  Scaffold(
       appBar: AppBar(
-        title: const Text('Music PlayList'),
+        title: const Text('My PlayList'),
         centerTitle: false,
       ),
       body: Obx(()=> controller.isLoading
@@ -34,18 +34,6 @@ class MusicPlayPage extends GetView<MusicPlayController> {
                     onPlay: () => controller.play(item),
                     onTap: () => controller.playListDetail(item)
                   );
-                  // return ListTile(
-                  //   leading: const Icon(Icons.music_note,size: 50,color: Colors.redAccent,),
-                  //   title: Text(item.title,style: theme.textTheme.titleSmall,),
-                  //   subtitle: Text(item.description,style: theme.textTheme.bodySmall,),
-                  //   trailing:  InkWell(
-                  //     onTap: (){
-                  //       const assetPath = 'assets/mp3/nature.mp3';//''assets/mp3/inspiring-corporate-technology-ambient-loyalty-no-drums-236311.mp3';
-                  //       controller.playAsset(assetPath);
-                  //     },
-                  //     child: Icon(Icons.play_circle_outline,size: 30,color: Colors.grey.shade400)
-                  //   ),
-                  // );
                 },
                 separatorBuilder: (_,index) =>
                   Padding(

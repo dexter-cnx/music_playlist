@@ -23,8 +23,9 @@ class SplashPage extends GetView<SplashController> {
           crossAxisAlignment: CrossAxisAlignment.center,
           mainAxisAlignment: MainAxisAlignment.spaceAround,
           children: [
-            //SizedBox(),
-            Center(child: Icon(Icons.music_note,size: 50,color: Colors.redAccent,)),
+            Center(
+              child: Icon(Icons.music_note,size: 50,color: Colors.redAccent,)
+            ),
           ],
         ),
       ),

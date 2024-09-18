@@ -17,6 +17,42 @@
           "description" : "FISHER",
           "image" : "https://m.media-amazon.com/images/I/9135KRo8Q7L._SS500_.jpg",
           "source" : "assets/mp3/inspiring-corporate-technology-ambient-loyalty-no-drums-236311.mp3"
+        },
+        {
+          "title" : "American Kids",
+          "description" : "Kenny Chesney",
+          "image" : "https://cdn.playbuzz.com/cdn/7ce5041b-f9e8-4058-8886-134d05e33bd7/5c553d94-4aa2-485c-8a3f-9f496e4e4619.jpg",
+          "source" : "assets/mp3/german_military_march.mp3"
+        },
+        {
+          "title" : "Wake Me Up",
+          "description" : "Avicii",
+          "image" : "https://upload.wikimedia.org/wikipedia/en/d/da/Avicii_Wake_Me_Up_Official_Single_Cover.png",
+          "source" : "assets/mp3/inspiring-corporate-technology-ambient-loyalty-no-drums-236311.mp3"
+        },
+        {
+          "title" : "Missing You",
+          "description" : "Mesto",
+          "image" : "https://img.discogs.com/EcqkrmOCbBguE3ns-HrzNmZP4eM=/fit-in/600x600/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-12539198-1537229070-5497.jpeg.jpg",
+          "source" : "assets/mp3/german_military_march.mp3"
+        },
+        {
+          "title" : "Drop it dirty",
+          "description" : "Tavengo",
+          "image" : "https://www.shazam.com/mkimage/image/thumb/Music114/v4/7e/71/0a/7e710a40-7321-7120-9fce-54a849570a3d/cover.jpg/255x255bb-60.webp",
+          "source" : "assets/mp3/inspiring-corporate-technology-ambient-loyalty-no-drums-236311.mp3"
+        },
+        {
+          "title" : "Cigarettes",
+          "description" : "Tash Sultana",
+          "image" : "https://m.media-amazon.com/images/I/91vBpel766L._SS500_.jpg",
+          "source" : "assets/mp3/german_military_march.mp3"
+        },
+        {
+          "title" : "Ego Death",
+          "description" : "Skrillex",
+          "image" : "https://static.stereogum.com/uploads/2020/06/Ego-Death-1593566496.jpg",
+          "source" : "assets/mp3/inspiring-corporate-technology-ambient-loyalty-no-drums-236311.mp3"
         }
       ]
     },
@@ -37,6 +73,210 @@
           "description" : "Dope Lemon",
           "image" : "https://m.media-amazon.com/images/I/81UYWMG47EL._SS500_.jpg",
           "source" : "assets/mp3/german_military_march.mp3"
+        },
+        {
+          "title" : "American Kids",
+          "description" : "Kenny Chesney",
+          "image" : "https://cdn.playbuzz.com/cdn/7ce5041b-f9e8-4058-8886-134d05e33bd7/5c553d94-4aa2-485c-8a3f-9f496e4e4619.jpg",
+          "source" : "assets/mp3/german_military_march.mp3"
+        },
+        {
+          "title" : "Wake Me Up",
+          "description" : "Avicii",
+          "image" : "https://upload.wikimedia.org/wikipedia/en/d/da/Avicii_Wake_Me_Up_Official_Single_Cover.png",
+          "source" : "assets/mp3/inspiring-corporate-technology-ambient-loyalty-no-drums-236311.mp3"
+        },
+        {
+          "title" : "Missing You",
+          "description" : "Mesto",
+          "image" : "https://img.discogs.com/EcqkrmOCbBguE3ns-HrzNmZP4eM=/fit-in/600x600/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-12539198-1537229070-5497.jpeg.jpg",
+          "source" : "assets/mp3/german_military_march.mp3"
+        },
+        {
+          "title" : "Drop it dirty",
+          "description" : "Tavengo",
+          "image" : "https://www.shazam.com/mkimage/image/thumb/Music114/v4/7e/71/0a/7e710a40-7321-7120-9fce-54a849570a3d/cover.jpg/255x255bb-60.webp",
+          "source" : "assets/mp3/inspiring-corporate-technology-ambient-loyalty-no-drums-236311.mp3"
+        },
+        {
+          "title" : "Cigarettes",
+          "description" : "Tash Sultana",
+          "image" : "https://m.media-amazon.com/images/I/91vBpel766L._SS500_.jpg",
+          "source" : "assets/mp3/german_military_march.mp3"
+        },
+        {
+          "title" : "Ego Death",
+          "description" : "Skrillex",
+          "image" : "https://static.stereogum.com/uploads/2020/06/Ego-Death-1593566496.jpg",
+          "source" : "assets/mp3/inspiring-corporate-technology-ambient-loyalty-no-drums-236311.mp3"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title" : "Techno 2021",
+      "description" : "the 2021 group",
+      "image" : "https://cdn.playbuzz.com/cdn/7ce5041b-f9e8-4058-8886-134d05e33bd7/5c553d94-4aa2-485c-8a3f-9f496e4e4619.jpg",
+      "audios" : [
+        {
+          "title" : "American Kids",
+          "description" : "Kenny Chesney",
+          "image" : "https://cdn.playbuzz.com/cdn/7ce5041b-f9e8-4058-8886-134d05e33bd7/5c553d94-4aa2-485c-8a3f-9f496e4e4619.jpg",
+          "source" : "assets/mp3/german_military_march.mp3"
+        },
+        {
+          "title" : "Salt & Pepper",
+          "description" : "Dope Lemon",
+          "image" : "https://m.media-amazon.com/images/I/81UYWMG47EL._SS500_.jpg",
+          "source" : "assets/mp3/german_military_march.mp3"
+        },
+        {
+          "title" : "Losing It",
+          "description" : "FISHER",
+          "image" : "https://m.media-amazon.com/images/I/9135KRo8Q7L._SS500_.jpg",
+          "source" : "assets/mp3/inspiring-corporate-technology-ambient-loyalty-no-drums-236311.mp3"
+        },
+        {
+          "title" : "Wake Me Up",
+          "description" : "Avicii",
+          "image" : "https://upload.wikimedia.org/wikipedia/en/d/da/Avicii_Wake_Me_Up_Official_Single_Cover.png",
+          "source" : "assets/mp3/inspiring-corporate-technology-ambient-loyalty-no-drums-236311.mp3"
+        },
+        {
+          "title" : "Missing You",
+          "description" : "Mesto",
+          "image" : "https://img.discogs.com/EcqkrmOCbBguE3ns-HrzNmZP4eM=/fit-in/600x600/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-12539198-1537229070-5497.jpeg.jpg",
+          "source" : "assets/mp3/german_military_march.mp3"
+        },
+        {
+          "title" : "Drop it dirty",
+          "description" : "Tavengo",
+          "image" : "https://www.shazam.com/mkimage/image/thumb/Music114/v4/7e/71/0a/7e710a40-7321-7120-9fce-54a849570a3d/cover.jpg/255x255bb-60.webp",
+          "source" : "assets/mp3/inspiring-corporate-technology-ambient-loyalty-no-drums-236311.mp3"
+        },
+        {
+          "title" : "Cigarettes",
+          "description" : "Tash Sultana",
+          "image" : "https://m.media-amazon.com/images/I/91vBpel766L._SS500_.jpg",
+          "source" : "assets/mp3/german_military_march.mp3"
+        },
+        {
+          "title" : "Ego Death",
+          "description" : "Skrillex",
+          "image" : "https://static.stereogum.com/uploads/2020/06/Ego-Death-1593566496.jpg",
+          "source" : "assets/mp3/inspiring-corporate-technology-ambient-loyalty-no-drums-236311.mp3"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title" : "Vibe with me",
+      "description" : "housy",
+      "image" : "https://upload.wikimedia.org/wikipedia/en/d/da/Avicii_Wake_Me_Up_Official_Single_Cover.png",
+      "audios" : [
+        {
+          "title" : "Wake Me Up",
+          "description" : "Avicii",
+          "image" : "https://upload.wikimedia.org/wikipedia/en/d/da/Avicii_Wake_Me_Up_Official_Single_Cover.png",
+          "source" : "assets/mp3/inspiring-corporate-technology-ambient-loyalty-no-drums-236311.mp3"
+        },
+        {
+          "title" : "American Kids",
+          "description" : "Kenny Chesney",
+          "image" : "https://cdn.playbuzz.com/cdn/7ce5041b-f9e8-4058-8886-134d05e33bd7/5c553d94-4aa2-485c-8a3f-9f496e4e4619.jpg",
+          "source" : "assets/mp3/german_military_march.mp3"
+        },
+        {
+          "title" : "Losing It",
+          "description" : "FISHER",
+          "image" : "https://m.media-amazon.com/images/I/9135KRo8Q7L._SS500_.jpg",
+          "source" : "assets/mp3/inspiring-corporate-technology-ambient-loyalty-no-drums-236311.mp3"
+        },
+        {
+          "title" : "Salt & Pepper",
+          "description" : "Dope Lemon",
+          "image" : "https://m.media-amazon.com/images/I/81UYWMG47EL._SS500_.jpg",
+          "source" : "assets/mp3/german_military_march.mp3"
+        },
+        {
+          "title" : "Missing You",
+          "description" : "Mesto",
+          "image" : "https://img.discogs.com/EcqkrmOCbBguE3ns-HrzNmZP4eM=/fit-in/600x600/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-12539198-1537229070-5497.jpeg.jpg",
+          "source" : "assets/mp3/german_military_march.mp3"
+        },
+        {
+          "title" : "Drop it dirty",
+          "description" : "Tavengo",
+          "image" : "https://www.shazam.com/mkimage/image/thumb/Music114/v4/7e/71/0a/7e710a40-7321-7120-9fce-54a849570a3d/cover.jpg/255x255bb-60.webp",
+          "source" : "assets/mp3/inspiring-corporate-technology-ambient-loyalty-no-drums-236311.mp3"
+        },
+        {
+          "title" : "Cigarettes",
+          "description" : "Tash Sultana",
+          "image" : "https://m.media-amazon.com/images/I/91vBpel766L._SS500_.jpg",
+          "source" : "assets/mp3/german_military_march.mp3"
+        },
+        {
+          "title" : "Ego Death",
+          "description" : "Skrillex",
+          "image" : "https://static.stereogum.com/uploads/2020/06/Ego-Death-1593566496.jpg",
+          "source" : "assets/mp3/inspiring-corporate-technology-ambient-loyalty-no-drums-236311.mp3"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title" : "Listen&chill",
+      "description" : "Hipster",
+      "image" : "https://m.media-amazon.com/images/I/91vBpel766L._SS500_.jpg",
+      "audios" : [
+        {
+          "title" : "Missing You",
+          "description" : "Mesto",
+          "image" : "https://img.discogs.com/EcqkrmOCbBguE3ns-HrzNmZP4eM=/fit-in/600x600/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-12539198-1537229070-5497.jpeg.jpg",
+          "source" : "assets/mp3/german_military_march.mp3"
+        },
+        {
+          "title" : "Drop it dirty",
+          "description" : "Tavengo",
+          "image" : "https://www.shazam.com/mkimage/image/thumb/Music114/v4/7e/71/0a/7e710a40-7321-7120-9fce-54a849570a3d/cover.jpg/255x255bb-60.webp",
+          "source" : "assets/mp3/inspiring-corporate-technology-ambient-loyalty-no-drums-236311.mp3"
+        },
+        {
+          "title" : "Salt & Pepper",
+          "description" : "Dope Lemon",
+          "image" : "https://m.media-amazon.com/images/I/81UYWMG47EL._SS500_.jpg",
+          "source" : "assets/mp3/german_military_march.mp3"
+        },
+        {
+          "title" : "Losing It",
+          "description" : "FISHER",
+          "image" : "https://m.media-amazon.com/images/I/9135KRo8Q7L._SS500_.jpg",
+          "source" : "assets/mp3/inspiring-corporate-technology-ambient-loyalty-no-drums-236311.mp3"
+        },
+        {
+          "title" : "American Kids",
+          "description" : "Kenny Chesney",
+          "image" : "https://cdn.playbuzz.com/cdn/7ce5041b-f9e8-4058-8886-134d05e33bd7/5c553d94-4aa2-485c-8a3f-9f496e4e4619.jpg",
+          "source" : "assets/mp3/german_military_march.mp3"
+        },
+        {
+          "title" : "Wake Me Up",
+          "description" : "Avicii",
+          "image" : "https://upload.wikimedia.org/wikipedia/en/d/da/Avicii_Wake_Me_Up_Official_Single_Cover.png",
+          "source" : "assets/mp3/inspiring-corporate-technology-ambient-loyalty-no-drums-236311.mp3"
+        },
+        {
+          "title" : "Cigarettes",
+          "description" : "Tash Sultana",
+          "image" : "https://m.media-amazon.com/images/I/91vBpel766L._SS500_.jpg",
+          "source" : "assets/mp3/german_military_march.mp3"
+        },
+        {
+          "title" : "Ego Death",
+          "description" : "Skrillex",
+          "image" : "https://static.stereogum.com/uploads/2020/06/Ego-Death-1593566496.jpg",
+          "source" : "assets/mp3/inspiring-corporate-technology-ambient-loyalty-no-drums-236311.mp3"
         }
       ]
     }

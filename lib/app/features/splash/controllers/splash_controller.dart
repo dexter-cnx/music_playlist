@@ -12,6 +12,9 @@ class SplashController extends GetxController {
   }
 
   Future<void> loading() async {
-    Timer(const Duration(seconds: 2), () => Get.offAndToNamed(Routes.musicPlay));
+    Timer(
+      const Duration(seconds: 2),
+      () => Get.offAndToNamed(Routes.musicPlay)
+    );
   }
 }

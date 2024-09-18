@@ -17,9 +17,10 @@ class Application extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       initialBinding: InitialBinding(),
       defaultTransition: Transition.cupertino,
-      initialRoute: '/splash',
+      initialRoute: Routes.splash,
       getPages: Routes.routes,
-      builder: EasyLoading.init(builder: (context, widget) {
+      builder: EasyLoading.init(
+        builder: (context, widget) {
         return MediaQuery(data: MediaQuery.of(context), child: widget!);
       }),
       theme: ThemeData(

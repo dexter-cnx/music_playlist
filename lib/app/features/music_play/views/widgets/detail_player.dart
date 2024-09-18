@@ -82,7 +82,8 @@ class DetailPlayer extends StatelessWidget {
             }
             debugPrint('playing #$index');
             final isFirst = index == 0;
-            final isLast = index == MusicPlayController.to.selectedPlayList.audios.length-1;
+            final isLast = index == MusicPlayController.to.
+              selectedPlayList.audios.length-1;
             return Row(
               children: [
                 Expanded(
@@ -93,7 +94,10 @@ class DetailPlayer extends StatelessWidget {
                           borderRadius: BorderRadius.circular(4),
                           child: imageFromSource(item.image,size: imageSize),
                         ),
-                        title: Text(item.title,style: titleStyle ?? theme.textTheme.titleSmall,),
+                        title: Text(
+                          item.title,
+                          style: titleStyle ?? theme.textTheme.titleSmall,
+                        ),
                         subtitle: Text(
                           style: subTitleStyle ?? theme.textTheme.bodySmall,
                           item.description,
@@ -107,7 +111,6 @@ class DetailPlayer extends StatelessWidget {
                 IconButton(
                   onPressed: isFirst ? null : () async {
                     await player.seekToPrevious();
-                    //await player.play();
                   },
                   icon:  Icon(
                     Icons.skip_previous_outlined,
@@ -122,7 +125,6 @@ class DetailPlayer extends StatelessWidget {
                 IconButton(
                   onPressed: isLast ? null : () async {
                     await player.seekToNext();
-                    //await player.play();
                   },
                   icon:  Icon(
                     Icons.skip_next_outlined,

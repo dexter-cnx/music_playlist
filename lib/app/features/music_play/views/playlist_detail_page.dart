@@ -13,6 +13,10 @@ class PlaylistDetailPage extends GetView<PlayListDetailController> {
     return SafeArea(
       child: Scaffold(
         backgroundColor: const Color(0xFF1A3750),
+        appBar: AppBar(
+          title: Text(controller.playList.title,
+            style: theme.textTheme.titleMedium?.copyWith(color: Colors.amber),),
+        ),
         body: Column(
           children: [
             DetailPlayer(
@@ -20,8 +24,10 @@ class PlaylistDetailPage extends GetView<PlayListDetailController> {
               item: controller.playList,
               iconColor: Colors.white,
               iconDisableColor: Colors.black.withOpacity(0.4),
-              titleStyle: theme.textTheme.titleSmall?.copyWith(color: Colors.white),
-              subTitleStyle: theme.textTheme.bodySmall?.copyWith(color: Colors.white),
+              titleStyle: theme.textTheme.titleSmall?.
+                copyWith(color: Colors.white),
+              subTitleStyle: theme.textTheme.bodySmall?.
+                copyWith(color: Colors.white),
             ),
             Padding(
               padding: const EdgeInsets.all(8.0),
@@ -63,11 +69,19 @@ class PlaylistDetailPage extends GetView<PlayListDetailController> {
                                     backgroundColor:bgColor,
                                     item: item,
                                     onTap: () {
-                                      controller.player.seek(Duration.zero,index: index);
-                                      Future.delayed(const Duration(seconds: 1),()=> controller.player.play());
+                                      controller.player.seek(
+                                        Duration.zero,
+                                        index: index
+                                      );
+                                      Future.delayed(
+                                        const Duration(seconds: 1),
+                                        ()=> controller.player.play()
+                                      );
                                     },
-                                    titleStyle: theme.textTheme.titleSmall?.copyWith(color: Colors.white),
-                                    subTitleStyle: theme.textTheme.bodySmall?.copyWith(color: Colors.white),
+                                    titleStyle: theme.textTheme.titleSmall?.
+                                      copyWith(color: Colors.white),
+                                    subTitleStyle: theme.textTheme.bodySmall?.
+                                      copyWith(color: Colors.white),
                                   );
                                 });
                           }
@@ -81,7 +95,9 @@ class PlaylistDetailPage extends GetView<PlayListDetailController> {
                   return Center(
                     child: Text(
                         'This is the $label tab',
-                        style: const TextStyle(fontSize: 36)
+                        style: const TextStyle(
+                          fontSize: 16,color: Colors.amber
+                        )
                     ),
                   );
                 }).toList(),

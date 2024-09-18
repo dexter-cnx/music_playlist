@@ -34,9 +34,11 @@ class SeekBar extends StatelessWidget {
               children: [
                 SliderTheme(
                   data: SliderTheme.of(context).copyWith(
-                      //trackHeight: 28,
-                      thumbColor: Colors.transparent,
-                      thumbShape: const RoundSliderThumbShape(enabledThumbRadius: 0.0)),
+                    thumbColor: Colors.transparent,
+                    thumbShape: const RoundSliderThumbShape(
+                      enabledThumbRadius: 0.0
+                    )
+                  ),
                   child: Slider(
                     activeColor: Colors.amberAccent,
                     value: position > duration
@@ -49,8 +51,6 @@ class SeekBar extends StatelessWidget {
                     },
                   ),
                 ),
-                //const SizedBox(height: 4),
-                // position and duration text
                 if (showTime)
                   Padding(
                     padding: const EdgeInsets.symmetric(horizontal: 4.0),

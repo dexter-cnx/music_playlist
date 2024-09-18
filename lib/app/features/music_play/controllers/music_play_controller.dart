@@ -1,3 +1,4 @@
+import 'package:flutter_easyloading/flutter_easyloading.dart';
 import 'package:get/get.dart';
 import 'package:flutter/services.dart' show rootBundle;
 import 'package:just_audio/just_audio.dart';
@@ -12,7 +13,6 @@ class MusicPlayController extends GetxController {
 
   final player = AudioPlayer();
 
-
   final _loading = true.obs;
   bool get isLoading => _loading.isTrue;
 
@@ -22,8 +22,6 @@ class MusicPlayController extends GetxController {
   @override
   void onInit() {
     loadPlayList();
-
-    //_initStreams();
     super.onInit();
   }
 
@@ -38,14 +36,11 @@ class MusicPlayController extends GetxController {
     _loading(false);
   }
 
-
-
   final _selectedPlayList = PlayList.fromMap({}).obs;
   PlayList get selectedPlayList => _selectedPlayList.value;
 
   Future<void> play(PlayList playList,{bool isPlay = true}) async {
     if (playList.id != selectedPlayList.id) {
-      //
       if (playList.audios.isNotEmpty) {
         final sources = <AudioSource>[];
         for (final audio in playList.audios) {
@@ -96,10 +91,9 @@ class MusicPlayController extends GetxController {
   }
 
   void playListDetail(PlayList playList) async {
+    EasyLoading.show(status: 'Loading');
     await play(playList,isPlay: false);
+    EasyLoading.dismiss();
     Get.toNamed(Routes.playListDetail);
   }
-
-
-
 }
