@@ -15,14 +15,22 @@ class DetailPlayer extends StatelessWidget {
 
   final double imageSize;
   final double playIconSize;
-  final Color? playIconColor;
+  final Color? iconColor;
+  final Color? iconDisableColor;
+  final Color? backgroundColor;
   final Icon? playIcon;
+  final TextStyle? titleStyle;
+  final TextStyle? subTitleStyle;
   const DetailPlayer({super.key,
     required this.item,
     this.imageSize = 52,
     this.playIconSize = 30,
-    this.playIconColor,
+    this.iconColor,
+    this.backgroundColor,
     this.playIcon,
+    this.titleStyle,
+    this.subTitleStyle,
+    this.iconDisableColor,
   });
 
   @override
@@ -48,13 +56,13 @@ class DetailPlayer extends StatelessWidget {
               }
             },
             icon: playing
-                ? const Icon(
+                ?  Icon(
               Icons.pause_outlined,
-              color: Colors.black,
+              color: iconColor ?? Colors.black,
             )
-                : const Icon(
+                :  Icon(
               Icons.play_arrow,
-              color: Colors.black,
+              color: iconColor ?? Colors.black,
             ),
             iconSize: 40,
             tooltip: 'Play/Pause',
@@ -85,9 +93,9 @@ class DetailPlayer extends StatelessWidget {
                           borderRadius: BorderRadius.circular(4),
                           child: imageFromSource(item.image,size: imageSize),
                         ),
-                        title: Text(item.title,style: theme.textTheme.titleSmall,),
+                        title: Text(item.title,style: titleStyle ?? theme.textTheme.titleSmall,),
                         subtitle: Text(
-                          style: theme.textTheme.bodySmall,
+                          style: subTitleStyle ?? theme.textTheme.bodySmall,
                           item.description,
                           maxLines: 1,
                           overflow: TextOverflow.ellipsis,
@@ -103,7 +111,9 @@ class DetailPlayer extends StatelessWidget {
                   },
                   icon:  Icon(
                     Icons.skip_previous_outlined,
-                    color: isFirst ? Colors.grey.shade300 : Colors.black,
+                    color: isFirst
+                      ? ( iconDisableColor ?? Colors.grey.shade300)
+                      : ( iconColor ?? Colors.black),
                   ),
                   iconSize: 40,
                   tooltip: 'Previous',
@@ -116,7 +126,9 @@ class DetailPlayer extends StatelessWidget {
                   },
                   icon:  Icon(
                     Icons.skip_next_outlined,
-                    color: isLast ? Colors.grey.shade300 : Colors.black,
+                    color: isLast
+                      ? ( iconDisableColor ?? Colors.grey.shade300)
+                      : ( iconColor ?? Colors.black),
                   ),
                   iconSize: 40,
                   tooltip: 'Next',
@@ -126,14 +138,17 @@ class DetailPlayer extends StatelessWidget {
           });
     }
 
-    return Column(
-      children: [
-        buildCurrentPlay(),
-        const Padding(
-          padding: EdgeInsets.symmetric(horizontal: 8.0),
-          child: SeekBar(showTime: true,),
-        ),
-      ],
+    return Container(
+      color: backgroundColor ?? Colors.white,
+      child: Column(
+        children: [
+          buildCurrentPlay(),
+          Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 8.0),
+            child: SeekBar(showTime: true,timeStyle: subTitleStyle ,),
+          ),
+        ],
+      ),
     );
   }
 }

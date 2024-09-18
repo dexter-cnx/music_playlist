@@ -1,11 +1,7 @@
 import 'package:flutter/material.dart';
 
-
-
 import '../../../../utils/utils.dart';
 import '../../models/play_list_model.dart';
-
-
 
 class PlaylistListTitle extends StatelessWidget {
   final PlayList item;

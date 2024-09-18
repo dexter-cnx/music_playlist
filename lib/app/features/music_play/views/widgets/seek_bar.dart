@@ -6,10 +6,12 @@ import '../../controllers/music_play_controller.dart';
 
 class SeekBar extends StatelessWidget {
   final bool showTime;
+  final TextStyle? timeStyle;
   const SeekBar({
     super.key,
     //required this.player,
-    this.showTime = true
+    this.showTime = true,
+    this.timeStyle
   });
 
   //final AudioPlayer player;
@@ -57,13 +59,13 @@ class SeekBar extends StatelessWidget {
                       children: [
                         Text(
                           '${position.inMinutes.toString().padLeft(2, '0')}:${(position.inSeconds % 60).toString().padLeft(2, '0')}',
-                          style: const TextStyle(
+                          style: timeStyle ?? const TextStyle(
                             color: Colors.black,
                           ),
                         ),
                         Text(
                           '${duration.inMinutes.toString().padLeft(2, '0')}:${(duration.inSeconds % 60).toString().padLeft(2, '0')}',
-                          style: const TextStyle(
+                          style:  timeStyle ?? const TextStyle(
                             color: Colors.black,
                           ),
                         ),
